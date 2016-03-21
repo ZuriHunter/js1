@@ -17,8 +17,18 @@ Creating a page where every time the user hits the "Roll Dice" button, the scree
 */
 
 
-document.getElementById("roll-dice").addEventListener("click", rollDie);
+//it is much faster to query the variables from the beginning and stuff.
 
+//firstDie = document.getElementById('first-die');
+//secondDie = document.getElementById('second-die');
+
+/* function rollDie(){
+firstDie.className = firstDie;
+secondDie.className = secondDie;
+}
+*/ 
+
+document.getElementById("roll-dice").addEventListener("click", rollDie);
 
 function rollDie () {
 

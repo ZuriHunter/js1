@@ -16,13 +16,22 @@ Creating a page where every time the user hits the "Roll Dice" button, the scree
 
 */
 
-function rollDie (number) {
 
-  //random to get the
+document.getElementById("roll-dice").addEventListener("click", rollDie);
+
+
+function rollDie () {
+
   var random1 = Math.floor((Math.random() * 6)+1);
   var random2 = Math.floor((Math.random() * 6)+1);
 
   console.log(random1, random2);
 
-  return number 
+  firstDie = 'dice dice-' + random1;
+  secondDie = 'dice dice-'+ random2;
+
+  var item1 = document.getElementById('first-die').className = firstDie;
+  var item2 = document.getElementById('second-die').className= secondDie;
+
+
 }

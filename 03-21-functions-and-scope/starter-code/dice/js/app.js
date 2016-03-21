@@ -15,3 +15,14 @@ Creating a page where every time the user hits the "Roll Dice" button, the scree
 3) Check to see if the Dice Roll has been hit, if it has run the diceRoll function.
 
 */
+
+function rollDie (number) {
+
+  //random to get the
+  var random1 = Math.floor((Math.random() * 6)+1);
+  var random2 = Math.floor((Math.random() * 6)+1);
+
+  console.log(random1, random2);
+
+  return number 
+}

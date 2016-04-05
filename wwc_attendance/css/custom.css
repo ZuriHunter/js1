@@ -1,0 +1,74 @@
+body {
+  background-color: #66D0C8;
+  color: black;
+}
+
+.nav-links{
+  color: black !important;
+}
+
+.mdl-mini-footer{
+  background-color: white !important;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.footer-height{
+  height: 61px !important;
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.add-black {
+  background-color: black;
+}
+
+.grid-padding{
+  padding-left: 60px !important;
+  padding-righ: 50px !important;
+}
+
+.page-content{
+  background-color: #EDEDED !important;
+}
+
+.no-bg-color {
+  background-color: transparent !important;
+  border: none;
+}
+
+
+.mdl-card__title{
+  text-align: center;
+}
+.mdl-card__media{
+  background-color: #66D0C8;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+//wide card view
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}

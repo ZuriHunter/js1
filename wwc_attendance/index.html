@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+
+  <title>WWC | Attendance</title>
+    <head>
+      <link rel="stylesheet" href="mdl/material.css">
+      <link rel="stylesheet" href="css/custom.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+      <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+      <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+      <script src="mdl/material.min.js"></script>
+      <script src="js/app.js"></script>
+    </head>
+
+    <body ng-app="wwca">
+
+      <!--navigation bar-->
+      <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title nav-links"><a ui-sref="home">Women Who Code</a></span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="android-navigation-container">
+            <nav class="mdl-navigation">
+              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" ui-sref="signin">Sign In</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" ui-sref="signout">Sign Out</a> -->
+              <a class="mdl-navigation__link mdl-typography--text-uppercase nav-links" ui-sref="dashboard">Dashboard</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase nav-links" ui-sref="groups">Events</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--navigation bar-->
+
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col">
+
+        </div>
+        <div class="mdl-cell mdl-cell--8-col">
+          <div ui-view>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--2-col">
+
+        </div>
+      </div>
+
+      <footer class="mdl-mini-footer footer-height">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">
+            More Information
+          </div>
+          <ul class="mdl-mini-footer__link-list nav-links">
+            <li><a href="http://github.com/womenwhocodedc/organization/tree/master/leadership-resources">Lead Guidelines</a></li>
+            <li><a href="http://github.com/womenwhocodedc/organization/tree/master/learning-resources">Learning Resources</a></li>
+            <li><a href="http://bit.ly/wwcdcslack">WWC Slack</a></li>
+          </ul>
+        </div>
+        <div class="mdl-mini-footer__right-section">
+          <a class="social-btn no-bg-color" href="https://twitter.com/WomenWhoCodeDC" ><i class="fa fa-twitter-square fa-3x" ></i></a>
+          <a class="social-btn no-bg-color" href="https://www.facebook.com/womenwhocode/" ><i class="fa fa-facebook-square fa-3x"  ></i></a>
+          <a class="social-btn no-bg-color" href="http://github.com/womenwhocodedc/"><i class="fa fa-github-square fa-3x" ></i></a>
+
+        </div>
+      </footer>
+
+
+
+
+    </body>
+</html>
